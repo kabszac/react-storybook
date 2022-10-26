@@ -1,12 +1,14 @@
 // import logo from './logo.svg';
 import './App.css';
-import Input from './components/input/Input';
+import { Success } from './components/chakraButton/ChakraButton.stories';
+//import Input from './components/input/Input';
 
 function App() {
   return (
     <div className="App">
-      <Input/>
-      <Input variant ='small'/>
+      {/* <Input/> */}
+      {/* <Input variant ='small'/> */}
+      <Success/>
     </div>
   );
 }
